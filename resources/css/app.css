@@ -5,3 +5,15 @@
 [x-cloak] {
     display: none;
 }
+
+body {
+    background-image: url('/storage/images/clipboard/bg-header-desktop.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media (max-width: 576px) {
+    body {
+        background-image: url('/storage/images/clipboard/bg-header-mobile.png');
+    }
+}
