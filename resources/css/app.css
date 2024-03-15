@@ -6,14 +6,18 @@
     display: none;
 }
 
-body {
-    background-image: url('/storage/images/clipboard/bg-header-desktop.png');
+#hero {
+    background-image: url('/storage/images/loopstudios/images/desktop/image-hero.jpg');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
-@media (max-width: 576px) {
-    body {
-        background-image: url('/storage/images/clipboard/bg-header-mobile.png');
+ @media (max-width: 576px) {
+    #hero {
+        background-image: url('/storage/images/loopstudios/images/mobile/image-hero.jpg');
+        background-positipn: center;
+
     }
+
 }
+
